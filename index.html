@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./JS/index.js">
     <title>pjsekai</title>
 </head>
 <h1>大会ルールでの計算</h1>
 <body>
     <form method="post" action="https://script.google.com/macros/s/AKfycbz6hpgjlUX8jZsN26BRFlCdceCFpPs4m4AB-tU7dZutQC9u2oie2Jl0rhtkygb2uzMpQg/exec">
-        <p>PERFECT:<input type="number" name="PERFECT" required></p>
-        <p>GREAT:<input type="number" name="GREAT" required></p>
-        <p>GOOD:<input type="number" name="GOOD" required></p>
-        <p>BAD:<input type="number" name="BAD" required></p>
-        <p>MISS:<input type="number" name="MISS" required></p>
-        <p><input type="submit" value="送信する"></p>
-        <input type="reset" value="取消する">
+        <p>USER NAME:<input class="username" type="text" name="MISS"> </p>
+        <p><img src="./JPG/perfect.jpg" width="100" class="imgap">:<input class="ap" type="number" name="PERFECT" required min="0"></p>
+        <p><img src="./JPG/great.jpg" width="100" class="imgap">:<input class="gr" type="number" name="GREAT" required min="0"></p>
+        <p><img src="./JPG/good.jpg" width="100" class="imgap">:<input class="go" type="number" name="GOOD" required min="0"></p>
+        <p><img src="./JPG/bad.jpg" width="90" class="imgap">:<input class="ba" type="number" name="BAD" required min="0"></p>
+        <p><img src="./JPG/miss.jpg" width="85" class="imgap">:<input class="mi" type="number" name="MISS" required min="0"></p>
+        <p><input class="send" type="submit" value="送信"></p>
+        <input class="reset" type="reset" value="取消">
     </form>
 </body>
 </html>
