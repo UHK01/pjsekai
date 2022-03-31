@@ -11,7 +11,13 @@
 <h1>大会ルールでの計算</h1>
 <body>
     <form method="post" action="https://script.google.com/macros/s/AKfycbz6hpgjlUX8jZsN26BRFlCdceCFpPs4m4AB-tU7dZutQC9u2oie2Jl0rhtkygb2uzMpQg/exec">
-        <p>USER NAME:<input class="username" type="text" name="MISS"> </p>
+        <p>USER NAME:<select name="USER NAME" class="username" required>
+            <option value="ユーザー名を選択してください">ユーザー名を選択してください</option>
+            <option value="白い稲妻">白い稲妻</option>
+            <option value="mona">mona</option>
+            <option value="N/A">N/A</option>
+            <option value="N/A">N/A</option>
+            </select></p>
         <p><img src="./JPG/perfect.jpg" width="100" class="imgap">:<input class="ap" type="number" name="PERFECT" required min="0"></p>
         <p><img src="./JPG/great.jpg" width="100" class="imgap">:<input class="gr" type="number" name="GREAT" required min="0"></p>
         <p><img src="./JPG/good.jpg" width="100" class="imgap">:<input class="go" type="number" name="GOOD" required min="0"></p>
