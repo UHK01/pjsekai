@@ -1,0 +1,42 @@
+html {
+    background-image: url("../JPG/back.png") 
+}
+.ap {
+    background-color: rgb(205, 156, 252);
+}
+.gr {
+    background-color: pink;
+}
+.go {
+    background-color: rgb(156, 243, 243);
+}
+.ba {
+    background-color: rgb(197, 245, 126);
+}
+.mi {
+    background-color: rgb(104, 105, 105);
+}
+.send {
+    background-color: rgb(155, 248, 155);
+}
+.reset {
+    background-color: rgb(250, 139, 139);
+}
+.ap {
+    padding:4.7mm 0mm 0mm 0mm 
+}
+.gr {
+    padding:4.7mm 0mm 0mm 0mm 
+}
+.go {
+    padding:4.7mm 0mm 0mm 0mm 
+}
+.ba {
+    padding:4.7mm 0mm 0mm 0mm 
+}
+.mi {
+    padding:4.7mm 0mm 0mm 0mm 
+}
+.title {
+    background-color: rgb(204, 250, 216);
+}
